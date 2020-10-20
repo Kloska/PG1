@@ -4,14 +4,14 @@ import javax.swing.*;
 
 public class whilesatsen2 {
     public static void main(String[] args) {
-        String s = JOptionPane.showInputDialog("n?");
-        int n = Integer.parseInt(s);
-        int summa = 0;
-        int k=1;
-            while (k <= n) {
-                summa = summa + k;
-                k = n + (k * k);
-            }
-            JOptionPane.showMessageDialog(null, "Summan blir " + summa);
+      double totalArea = 10000;
+      double area = 0.01;
+      int dygn = 1;
+      while (area < totalArea){
+          area = area * 2;
+          dygn = dygn +1;
+      }
+      JOptionPane.showMessageDialog(null,"Sjön blir täckt efter " + dygn + "dygn");
+
     }
 }
