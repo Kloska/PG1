@@ -9,10 +9,7 @@ public class uppgift62 {
         int n = Integer.parseInt(JOptionPane.showInputDialog(null, "Välj ett tal n"));
         int m = Integer.parseInt(JOptionPane.showInputDialog(null, "Välj ett tal m"));
 
-
         int s = 0;
-
-        m/n = s;
 
         System.out.println(s);
 
