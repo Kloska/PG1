@@ -10,6 +10,6 @@ public class gissatalet {
        if(random == input);
 
            else
-        JOptionPane.showMessageDialog("Rätt svar!" + "Du gissade rätt efter " + gissningar + "gissningar.");
+        JOptionPane.showMessageDialog("Rätt svar!" + "Du gissade rätt efter gissningar.");
     }
 }
