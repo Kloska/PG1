@@ -9,7 +9,7 @@ public class Guessthenumber {
         int randomInteger;
 
         //storing random number in randomInteger variable
-        randomInteger = rand.nextInt(10) + 1;
+        randomInteger = rand.nextInt(100) + 1;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -20,7 +20,7 @@ public class Guessthenumber {
 
             //checking conditions and showing messages
             if (userInput == randomInteger) {
-                System.out.println("Congratulation");
+                System.out.println("Congratulations! You guesssed the correct number!");
                 break;
             } else if (userInput > randomInteger) {
                 System.out.println("Guess Lower");
