@@ -5,7 +5,7 @@ public class uppgift81 {
         try {
             double input = Integer.parseInt(JOptionPane.showInputDialog("Skriv ett tal"));
         } catch(Exception e) {
-            JOptionPane.showMessageDialog(null, "Du är dum, starta om programmet");
+            double input = Integer.parseInt(JOptionPane.showInputDialog("ANVÄND ENDAST SIFFOR!"));
         }
 
     }

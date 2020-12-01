@@ -7,9 +7,9 @@ public class gissatalet {
        double random = Math.random()*100;
       double input = Integer.parseInt(JOptionPane.showInputDialog("Gissa på ett tal mellan 1-100"));
 
-      while(true){
+      //while(true){
 
-      }
+      //}
        if(random == input){
 
        }
