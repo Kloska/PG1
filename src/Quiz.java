@@ -6,5 +6,6 @@ public class Quiz {
         String input = (String) JOptionPane.showInputDialog(null, "Vilken frukt är gul?",
                 "Quiz", JOptionPane.QUESTION_MESSAGE, null, choices, choices[1]);
         System.out.println(input);
+        "A - Banan".equals(input);
     }
 }
